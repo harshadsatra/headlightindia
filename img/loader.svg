@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+	<style>
+		.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:10px;}
+		.c2 {stroke: #ffcb00; stroke-width: 10; fill: none; stroke-dashoffset: 0; stroke-dasharray: 2826; stroke-linecap: round; -webkit-animation: dash 2s ease-in-out infinite; animation: dash 2s ease-in-out infinite; } .c1 {stroke: #f1f1f1; stroke-width: 10; fill: none;s} @-webkit-keyframes dash {from {stroke-dashoffset: 2826; } to {stroke-dashoffset: -2826; } } @keyframes dash {from {stroke-dashoffset: 2826; } to {stroke-dashoffset: -2826; } } 
+	</style>
+<circle class="c1" cx="500" cy="500" r="429"/>
+<circle class="c2" cx="500" cy="500" r="429"/>
+</svg>
