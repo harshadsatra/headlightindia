@@ -71,6 +71,7 @@ $(document).on("mousemove touchmove", function(e) {
 });
 
 // Audio Play and Pause
+/*
 $('#music_switch').on('click',function(){
 	console.log('triggered click');
 	if(!sound.paused){
@@ -86,12 +87,15 @@ $('#music_switch').on('click',function(){
 		$(this).addClass('active');
 	}
 });
+*/
 
 trigger.mouseenter(function(){
 	triggerParent = $(this).data('btn');
+	/*
 	if(sound_playing == true && sound.paused){
 		sound.play();
 	}
+	*/
 	section = $(triggerParent).data('type');
 	$(triggerParent).addClass('hovered');
 
@@ -126,9 +130,11 @@ trigger.mouseleave(function(){
 })
 
 trigger.mousedown(function(){
+	/*
 	if(sound_playing == true && sound.paused){
 		sound.play();
 	}
+	*/
 	$(triggerParent).addClass('activatePopup');
 	timeout_id = setTimeout(onTouchAndHold, hold_time,this);
 }).bind('mouseup mouseleave', function() {

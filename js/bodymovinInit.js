@@ -1,5 +1,5 @@
-var aws = 'https://localhost/ClosedProjects/headlightindia.com/headlightindia.com/js/';
-
+//var aws = 'https://localhost/ClosedProjects/headlightindia.com/headlightindia.com/js/';
+var aws = "js/";
 /* Main Page Animations */
 var workMovin = lottie.loadAnimation({
   container: document.getElementById('workMovin'), // Required
